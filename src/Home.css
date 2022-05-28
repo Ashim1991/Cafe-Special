@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap');
+
+.main{
+    width: 100%;
+}
+
+.mainimg {
+    margin-top: 7.8rem;
+    width: 100%;
+    height: 100%;
+   height: 620px;
+   background-image: url(https://images.unsplash.com/photo-1507915135761-41a0a222c709?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171);
+   background-repeat:no-repeat ;
+   
+  filter: blur(5px);
+  background-size: cover;
+  
+}
+
+.content{
+   color: #fff;
+    position: fixed;
+    
+    z-index: 9;
+    position: absolute;
+    top: 45%;
+    left: 38%; 
+    opacity: 0.9;
+}
+.but{
+    margin-left: 100px;
+    height: 50px;
+    width: 140px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    opacity: 1;
+    margin-top: 2rem;
+}
+.but:hover{
+    background-color: red;
+    
+    color: white;
+    font-weight: 500;
+}
+.but:active{
+    background-color: red;
+    box-shadow: 5px 8px #666;
+    transform: translateY(8px);
+}
+.content h1{
+    font-size: 70px;
+    font-family: 'Karla', sans-serif;
+}
+.content h3{
+    font-size: 20px;
+    margin-left: -20rem;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    opacity: 2;
+}
+.About{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.426);
+    padding-bottom: 3rem;
+}
+
+.Image{
+    width: 50%; 
+    padding: 5rem;
+    height: 500px;
+}
+.Image img{
+    height: 400px;
+}
+.Description{
+    padding: 5rem;
+    height: 500px;
+   
+    
+}
+.Read-more{
+    
+    height: 50px;
+    width: 140px;
+    background-color: transparent;
+    color: Red;
+    border: 1px solid red;
+    opacity: 1;
+    margin-top: 2rem;
+}
+.Read-more:hover{
+    background-color: red;
+    color: #fff;
+}
+.Reservation{
+    color: black;
+     position: fixed;
+     
+     z-index: 9;
+     position: absolute;
+     top: 15%;
+     left: 1%; 
+     opacity: 0.9;
+ }
+
+.Res-form{
+    width: 40rem;
+    background-color: #fff;
+} 
+.but a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+.but a:hover{
+  color: black;
+}
+.reservation{
+    width: 100%;
+    padding: 5rem;
+    text-align: center;
+    
+}
+.location h1{
+    text-align: center;
+    font-size: 20px;
+}
+.location h1 span{
+    color: red;
+}
+.cont-seller{
+    width: 100%;
+    min-height: 600px;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid #666;
+}
+.seller{
+    text-align: center;
+    padding-top: 5rem;
+    width: 85rem;
+    margin-left: 5rem;
+    font-family: carla;
+    
+}
+.Main-item{
+    display: flex;
+    margin-top: 3rem;
+    width: 60rem;
+    margin-left: 15rem;
+}
+.item-one{
+    width: 42.5rem;
+    border-right: 1px solid #666;
+    font-family: carla;
+    text-align: justify;
+}
+.Hover{
+    padding-top: 2px;
+}
+.Hover:hover{
+    border-bottom: 3px solid red;
+}
+.item-two{
+    width: 42.5rem;
+    font-family: carla;
+   margin-left: 5.5rem;
+    text-align: justify;
+}
+.Hover h3 span{
+    color: red;
+    font-size: 20px;
+}
+.button{
+    height: 50px;
+    width: 120px;
+    margin-top: 3rem;
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+}
+.button:hover{
+    background-color: Red;
+    border: 1px solid white;
+    color: #fff;
+    font-weight: 500;
+}
+.cards{
+    width: 100%;
+    margin-left: 2rem;
+    display: flex;
+    margin-top: 3rem;
+    
+}
+.card{
+    width: 23rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+.card img{
+    width: 23rem;
+    height: 20rem;
+}
+.card h1{
+    text-align: center;
+    font-size: 25px;
+    text-indent: 2px;
+    color: red;
+    margin-left: 25px;
+}
+
+.card:hover{
+   background-color: rgba(0, 0, 0, 0.1);
+   border: none;
+   box-shadow: #666;
+}
+.space{
+    padding-bottom: 4rem;
+    
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    padding-top: 4rem;
+    background-color: rgb(234, 232, 232);
+    padding-bottom: 4rem;
+ 
+}
+.footer-content{
+    width: 100%;
+   
+}
+.left{
+    text-align: center;
+   
+    font-family: karla;
+   
+}
+
+.left h1{
+    color: red;
+}
+.left h2 span{
+    color: red;
+}
+.left h2{
+    font-size: 25px;
+}
+.end{
+    text-align: center;    
+}
+.end h1{
+    padding-top: 1rem;
+    font-size: 20px;
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,52 @@
+.formmain{
+    width:40rem;
+    padding:1rem;
+   margin-top: 4rem;
+    margin-left: 20rem;
+    border-radius: 1rem;
+}
+.form-div{
+   display: flex;
+   
+   
+}
+
+.boxtwo{
+    margin-left: 10px;
+    width: 19.3rem;
+}
+.boxone{
+    width: 18rem;  
+}
+.boxthree{
+    margin-left: 10px;
+    width: 19rem;  
+}
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.loglink{
+    margin-top: 1rem;
+    
+}
+.box{
+    width: 19.3rem; 
+}
+
+
+
+
+
+
+
+
+
+.Card-info{
+    padding-bottom: 5rem;
+    margin-top: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 5rem;
+}
